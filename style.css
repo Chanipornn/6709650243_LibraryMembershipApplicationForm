@@ -41,5 +41,12 @@ input[type="email"] {
 .form-group select,
 .form-group input[type="number"] {
     margin: 0; 
-    padding: 2px; /
+    padding: 2px;
+}
+
+footer {
+    background-color: #ace1eb;
+    text-align: center;
+    font-family: "Bai Jamjuree", sans-serif;
+    
 }
