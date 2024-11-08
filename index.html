@@ -8,11 +8,16 @@
 </head>
 <body>
     <header>
-        <center><span style="color:#3b4b7d;"><h2>สมัครสมาชิกห้องสมุด</h2></span></center></header>
+        <center><span style="color:#3b4b7d;"><h2>⊹₊สมัครสมาชิกห้องสมุด₊⊹</h2></span></center></header>
         <br>
+        <div class="Libraryimg">
+            <img src="Img/BkkLibrary2.jpg">
+            <img src="Img/BkkLibrary.jpg">
+            <img src="Img/BkkLibrary3.jpg">
+        </div>  
         <form>
             <fieldset>
-                <legend>ชื่อ-นามสกุล</legend>
+                <legend>ชื่อ-นามสกุล<span style="color: red;">*</span></legend>
                 <label for="name-thai">ภาษาไทย :</label>
                 <input type="text" id="name-thai" name="name-thai"><br><br>
                 <label for="name-eng">ภาษาอังกฤษ :</label>
@@ -32,7 +37,7 @@
         </form><br>
         <form>
             <fieldset>
-                <legend>ข้อมูลนักศึกษา</legend>
+                <legend>ข้อมูลนักศึกษา<span style="color: red;">*</span></legend>
                 <label for="student ID">รหัสนักศึกษา :</label>
                 <input type="text" id="student ID" name="student ID"><br><br>
                 <label for="faculty">คณะที่ศึกษา :</label>
@@ -41,7 +46,7 @@
         </form><br>
         <form>
             <fieldset>
-                <legend>ช่องทางการติดต่อ</legend>
+                <legend>ช่องทางการติดต่อ<span style="color: red;">*</span></legend>
                 <label for="email">ที่อยู่อีเมล :</label>
                 <input type="email" id="email" name="email"><br>
                 <label for="number">หมายเลขโทรศัพท์ :</label>
@@ -50,7 +55,7 @@
         </form><br>
             <form>
                 <fieldset>
-                    <legend>วันเดือนปีเกิด</legend>
+                    <legend>วันเดือนปีเกิด<span style="color: red;">*</span></legend>
                     <div class="form-group"><label for="day">วัน :</label>
                 <select id="day" name="day" required>
                     <option value="">เลือก</option>
@@ -113,7 +118,7 @@
 
             <form>
                 <fieldset>
-                <legend>ประเภทของหนังสือที่สนใจ</legend>
+                <legend>ประเภทของหนังสือที่สนใจ<span style="color: red;">*</span> (ตอบได้มากกว่า 1 ข้อ)</legend>
                 <input type="checkbox" id="literature" name="book" value="literature">
                 <label for="literature">วรรณกรรม</label>
                 <input type="checkbox" id="novel" name="book" value="novel">
@@ -121,15 +126,15 @@
                 <input type="checkbox" id="bl gl" name="book" value="bl gl">
                 <label for="bl gl">หนังสือวาย ยูริ</label>
                 <input type="checkbox" id="documentary" name="book" value="documentary">
-                <label for="documentary">บทความ สารคดี</label><br><br>
+                <label for="documentary">บทความ สารคดี</label>
                 <input type="checkbox" id="exam" name="book" value="exam">
                 <label for="fexam">หนังสือเตรียมสอบ แนวข้อสอบ</label>
                 <input type="checkbox" id="cartoon" name="book" value="cartoon">
                 <label for="cartoon">การ์ตูน</label>
                 <input type="checkbox" id="kids" name="book" value="kids">
-                <label for="kids">หนังสือเด็ก</label>
+                <label for="kids">หนังสือเด็ก</label><br><br>
                 <input type="checkbox" id="psychology" name="book" value="psychology">
-                <label for="psychology">จิตวิทยา การพัฒนาตัวเอง</label><br><br>
+                <label for="psychology">จิตวิทยา การพัฒนาตัวเอง</label>
                 <input type="checkbox" id="life style" name="book" value="ife style">
                 <label for="ife style">สินค้าไลฟ์สไตล์</label>
                 <input type="checkbox" id="business" name="book" value="business">
@@ -137,15 +142,17 @@
                 <input type="checkbox" id="computer" name="book" value="computer">
                 <label for="computer">คอมพิวเตอร์</label>
                 <input type="checkbox" id="travel" name="book" value="travel">
-                <label for="travel">หนังสือท่องเที่ยว</label><br><br>
+                <label for="travel">หนังสือท่องเที่ยว</label>
                 <input type="checkbox" id="religion" name="book" value="religion">
                 <label for="religion">ธรรมะ ศาสนา และปรัชญา</label>
                 <input type="checkbox" id="home garden" name="book" value="home garden">
-                <label for="home garden">บ้านและสวน</label>
+                <label for="home garden">บ้านและสวน</label><br><br>
                 <input type="checkbox" id="health" name="book" value="health">
                 <label for="health">สุขภาพ ความงาม</label>
                 <input type="checkbox" id="hobby" name="book" value="hobby">
-                <label for="hobby">งานอดิเรก งานฝีมือ</label><br><br>
+                <label for="hobby">งานอดิเรก งานฝีมือ</label>
+                <input type="checkbox" id="momandkids" name="book" value="momandkids">
+                <label for="momandkids">แม่และเด็ก</label>
                 <input type="checkbox" id="horoscope" name="book" value="horoscope">
                 <label for="horoscope">โหราศาสตร์ ดูดวง ฮวงจุ้ย</label>
                 <input type="checkbox" id="foreign" name="book" value="foreign">
@@ -153,7 +160,7 @@
                 <input type="checkbox" id="royal writings" name="book" value="royal writings">
                 <label for="royal writings">หนังสือราชนิพนธ์</label>
                 <input type="checkbox" id="Magazine" name="book" value="Magazine">
-                <label for="Magazine">Magazine</label><br><br>
+                <label for="Magazine">Magazine</label><br><br><br>
                 </fieldset>
             </form><br>
             <form>
@@ -167,7 +174,7 @@
                 <br>
                 <input type="submit" value="Submit"><br>
         <footer>
-            <center><span style="color:#3b4b7d;"><h4>Thank you for register</h4></span></center></footer>
+            <center><span style="color:#3b4b7d;"><h4>Thank you for register </h4></span></center></footer>
 
 
 

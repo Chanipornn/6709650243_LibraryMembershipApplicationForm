@@ -4,6 +4,8 @@
 
 body {
     font-family: "Bai Jamjuree", sans-serif;
+    background-color: #edf7f9;
+    font-size: 17px;
 }
 header {
     background-color: #ace1eb;
@@ -16,6 +18,7 @@ label {
     display: inline-block;
     width: 100px;
     margin-top: 5px;
+    
 }
 
 input[type="text"] {
@@ -48,5 +51,94 @@ footer {
     background-color: #ace1eb;
     text-align: center;
     font-family: "Bai Jamjuree", sans-serif;
-    
+}
+
+.Libraryimg img {
+    display: inline-block;
+    width: 457px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0 10px;
+    border: 2px solid#638692;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    text-align: center;
+    align-items: center;
+
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 2px;
+    }
+
+    header h2 {
+        font-size: 24px;
+    }
+
+    .form-group {
+        flex-direction: column;
+    }
+
+    label,
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    select {
+        width: 97%;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"] {
+        max-width: 100%;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h2 {
+        font-size: 20px;
+    }
+
+    .form-group select,
+    .form-group input[type="number"] {
+        width: 100%;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+
+.Libraryimg {
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+}
+
+.Libraryimg img {
+    display: inline-block;
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0 10px;
+    border: 2px solid#638692;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+}
+
 }
