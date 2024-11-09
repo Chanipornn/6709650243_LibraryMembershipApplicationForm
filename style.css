@@ -16,7 +16,7 @@ header {
 }
 label {
     display: inline-block;
-    width: 100px;
+    width: 135px;
     margin-top: 5px;
     
 }
@@ -52,7 +52,13 @@ footer {
     text-align: center;
     font-family: "Bai Jamjuree", sans-serif;
 }
-
+.Libraryimg {
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+}
 .Libraryimg img {
     display: inline-block;
     width: 457px;
@@ -62,8 +68,6 @@ footer {
     border: 2px solid#638692;
     margin-bottom: 10px;
     border-radius: 7px;
-    text-align: center;
-    align-items: center;
 
 }
 
